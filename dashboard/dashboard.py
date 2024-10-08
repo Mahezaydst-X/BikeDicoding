@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-bike_data = pd.read_csv('hour.csv')
+bike_data = pd.read_csv('dashboard/hour.csv')
 
 # Main title for the Streamlit app
 st.title("Bike Sharing Data Analysis")
